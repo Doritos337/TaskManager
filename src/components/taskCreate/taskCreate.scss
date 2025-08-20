@@ -1,0 +1,48 @@
+@use 'sass:color';
+.task-create {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  
+    &__group {
+      margin-bottom: 1.5rem;
+    }
+  
+    &__label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+      font-weight: 500;
+    }
+  
+    &__input,
+    &__select {
+      width: 100%;
+      padding: 0.8rem;
+      border: 2px solid #ecf0f1;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+  
+      &:focus {
+        border-color: #3498db;
+        outline: none;
+      }
+    }
+  
+    &__button {
+      width: 100%;
+      padding: 1rem;
+      background: #3498db;
+      color: white;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: color.scale(#3498db, $lightness: -20%);
+      }
+    }
+  }
