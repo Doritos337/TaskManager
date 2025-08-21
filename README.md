@@ -1,12 +1,36 @@
-# React + Vite
+# ✅ Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **task management application** built with **React.js** and **Tailwind CSS**.
+The app allows users to **create, read, update, and delete (CRUD)** tasks in an intuitive interface.
 
-Currently, two official plugins are available:
+🔗 [Live Demo](https://taskmanagersimple.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ➕ **Add tasks**
+* 📋 **View all tasks**
+* ✏️ **Edit tasks**
+* 🗑️ **Delete tasks**
+* Clean and responsive UI with Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend:** React.js, Tailwind CSS
+* **Deployment:** Netlify
+
+---
+
+## 🚀 Installation & Setup
+
+npm install
+npm run dev
+
+---
+
+## 👨‍💻 Author
+
+Developed by [Doritos337](https://github.com/Doritos337)
